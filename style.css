@@ -1,0 +1,77 @@
+
+body {
+	font-family: 'calibri';
+	color: white;
+	background-color: skyblue;
+	background-image: url(https://images.unsplash.com/photo-1475070929565-c985b496cb9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+	font-size: 18px;
+}
+
+.title {
+	/*background-color: rgba(20, 133, 124, 0.5);*/
+	font-size: 22px;
+	text-shadow: 2px 2px 5px black;
+	color: white;
+	font-family: 'Francois One', sans-serif;
+	background-color: rgba(20, 133, 124, 0.5);
+	padding: 10px 100px;
+
+
+}
+
+.paragraph, .paragraph2 {
+    
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Exo 2', sans-serif;
+}
+
+img {
+	width: 400px;
+	/*border: 2px solid black;*/
+	/*border-radius: 10px;*/
+	position: relative;
+	top: ;
+	bottom: ;
+	right: ;
+	left: 550px;
+	margin: 0px;
+
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	
+}
+/*
+p.paragraph::first-letter{
+	color: red;
+	font-size: 80px;
+}
+*/
+
+#navegación ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(20, 133, 124, 0.5);
+}
+
+#navegación ul li{
+	display: inline-block;
+	
+}
+
+#navegación ul li a:hover{
+	background-color: #42B881;
+
+}
+
+#navegación ul li a{
+	display: block;
+	padding: 10px 100px;
+	color: white;
+
+}
